@@ -12,7 +12,7 @@ function handleAddToCartClick(){
     <li className={inCart ? 'in-cart':''}>
       <span>{name}</span>
       <span className="category">{category}</span>
-      <button className="add" onClick ={handleAddToCartClick}>{inCart? 'REmove From Cart' : 'Add to Cart'}</button>
+      <button className="add" onClick ={handleAddToCartClick}>{inCart? 'Remove From Cart' : 'Add to Cart'}</button>
 
     </li>
   );
